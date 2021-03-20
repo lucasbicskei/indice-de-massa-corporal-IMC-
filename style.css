@@ -1,0 +1,530 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Telas Mobile */
+
+@media screen and (min-width: 360px) {
+
+html {
+    opacity: 0.6;
+    }
+
+body {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%; 
+    background-image: url(imc-image.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+
+h1 {
+    margin-top: 2px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: 200;
+    color: deeppink;
+    }
+
+form {
+    margin-top: 10px;
+    font-family: fantasy;
+    font-size: 18px;
+    font-weight: 200;
+    color: gold;
+    }
+
+fieldset {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    }
+
+input {
+    display: flex;
+    margin-top: 10px;
+    width: 80%;
+    height: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    opacity: 0.8;
+    }
+
+button {
+    display: inline;
+    width: 30%;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    }
+
+section {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 5%; 
+    margin-right: 10%;
+    display: grid;
+    }
+
+table {
+    border: 1px solid grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    }
+
+table th, table td {
+    padding: 3px;
+    border: 1px solid grey;
+    }
+
+table th {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    }
+
+table thead tr {
+    background-color: grey;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    }
+
+/* / (odd) para linhas impares e (even para linhas pares)  */
+
+table tbody tr:nth-child(odd) {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    }
+
+table tbody tr:nth-child(even) {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    background-color: grey;
+    }
+
+table tbody {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    }
+
+table td:first-of-type{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    } 
+}
+
+
+
+/* Tablets */
+
+@media screen and (min-width: 768px) {
+
+    body {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%; 
+        background-image: url(imc-image.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        }
+    
+    h1 {
+        margin-top: 18px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 200;
+        color: deeppink;
+        }
+    
+    form {
+        margin-top: -10px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 200;
+        color: gold;
+        }
+    
+    fieldset {
+        width: 80%;
+        margin-top: 65px;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 10px;
+        }
+    
+    input {
+        display: flex;
+        margin-top: 10px;
+        width: 80%;
+        height: 25px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        opacity: 0.8;
+        }
+    
+    button {
+        display: inline;
+        width: 50%;
+        height: 25px;
+        margin-top: 10px;
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Roboto', sans-serif;
+        color: grey;
+        }
+    
+    section {
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 10%; 
+        margin-right: 10%;
+        display: grid;
+        }
+    
+    table {
+        border: 1px solid grey;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        }
+    
+    table th, table td {
+        padding: 3px;
+        border: 1px solid grey;
+        }
+    
+    table th {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        }
+    
+    table thead tr {
+        background-color: grey;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        }
+    
+    /* / (odd) para linhas impares e (even para linhas pares)  */
+    
+    table tbody tr:nth-child(odd) {
+        background-color: white;
+        font-family: 'Roboto', sans-serif;
+        color: grey;
+        }
+    
+    table tbody tr:nth-child(even) {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        color: white;
+        background-color: grey;
+        }
+    
+    table tbody {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        text-align: center;
+        }
+    
+    table td:first-of-type{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        text-align: center;
+        } 
+}
+
+
+
+
+ /* DESKTOPS */
+
+ @media screen and (min-width: 992px) {
+    body {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%; 
+        background-image: url(imc-image.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        }
+    
+    h1 {
+        margin-top: 18px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 200;
+        color: deeppink;
+        }
+    
+    form {
+        margin-top: -10px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 200;
+        color: gold;
+        }
+    
+    fieldset {
+        width: 80%;
+        margin-top: 65px;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 10px;
+        }
+    
+    input {
+        display: flex;
+        margin-top: 10px;
+        width: 80%;
+        height: 25px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        opacity: 0.8;
+        }
+    
+    button {
+        display: inline;
+        width: 50%;
+        height: 25px;
+        margin-top: 10px;
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Roboto', sans-serif;
+        color: grey;
+        }
+    
+    section {
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 10%; 
+        margin-right: 10%;
+        display: grid;
+        }
+    
+    table {
+        border: 1px solid grey;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        }
+    
+    table th, table td {
+        padding: 3px;
+        border: 1px solid grey;
+        }
+    
+    table th {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        }
+    
+    table thead tr {
+        background-color: grey;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        }
+    
+    /* / (odd) para linhas impares e (even para linhas pares)  */
+    
+    table tbody tr:nth-child(odd) {
+        background-color: white;
+        font-family: 'Roboto', sans-serif;
+        color: grey;
+        }
+    
+    table tbody tr:nth-child(even) {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        color: white;
+        background-color: grey;
+        }
+    
+    table tbody {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        text-align: center;
+        }
+    
+    table td:first-of-type{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        text-align: center;
+        }
+}    
+ 
+
+
+
+/* Telas Largas */
+
+
+
+@media screen and (min-width: 1200px) {
+    
+    body  {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: deeppink;
+    }
+
+    form {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+    font-size: 25px;
+    }
+
+    fieldset {
+    margin-top: 80px;
+    }
+
+    input {
+    height: 45px;
+    font-size: 25px;
+    margin-top: 30px;
+    opacity: 0.6;
+    }
+
+    button {
+    display: inline;
+    width: 50%;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: grey;
+    }
+
+    section {
+    margin-top: 20px;
+    margin-left: 10%;
+    display: grid;
+    }
+
+    table {
+    border: 1px solid grey;
+    font-size: 25px;
+            }
+
+    table th, table td {
+    padding: 3px;
+    border: 1px solid grey;
+        }
+    
+    table th {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+        }
+    
+    table thead tr {
+    background-color: grey;
+    color: white;
+        }
+    
+    /* / (odd) para linhas impares e (even para linhas pares)  */
+    
+    table tbody tr:nth-child(odd) {
+    background-color: white;
+    color: grey;
+        }
+    
+    table tbody tr:nth-child(even) {
+    font-family:'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+    background-color: grey;
+        }
+    
+    table tbody {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+        }
+    
+    table td:first-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+        }             
+}
+
+
+
+
